@@ -18,6 +18,7 @@ public class HomeSteps {
         switch (item) {
             case "Search field":
                 Assert.assertTrue(testContext.getHomePage().searchField.isDisplayed());
+                testContext.getBrowserUtils().logFailScreenshot(testContext.scenario);
                 break;
             default:
                 Assert.fail();
@@ -38,5 +39,6 @@ public class HomeSteps {
     @Then("Verify the results contain word {string}")
     public void verify_the_results_contain_word(String word) {
         Assert.assertTrue(testContext.getHomePage().containsWordInResults(word));
+        testContext.getBrowserUtils().logFailScreenshot(testContext.scenario);
     }
 }

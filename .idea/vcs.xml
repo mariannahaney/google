@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../projects" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../projects/PracticeGitB8" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../projects/SalesforceBDD" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../projects/git/RemoteRepoTask" vcs="Git" />
